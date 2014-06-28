@@ -1,13 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 package rcon.bf4.response
 
 /**
  *
- * @author JoaoBosco
+ * @author extra
  */
-enum ResponseCommands {
-
-    // TODO inserir todos os elementos de resposta
-    
+enum MiscResponse {
+	
     OK('OK'),
     INVALIDPASSWORD('InvalidPassword'),
     PASSWORDNOTSET('PasswordNotSet'),
@@ -19,8 +23,9 @@ enum ResponseCommands {
         code
     }
     
-    ResponseCommands(code){
+    MiscResponse(code){
         this.code = code
     }
+    
 }
 
