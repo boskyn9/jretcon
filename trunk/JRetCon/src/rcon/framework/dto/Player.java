@@ -25,6 +25,6 @@ public class Player {
 	}
 	
 	public void addDeath() {
-		deaths++;
+		deaths++;                
 	}
 }
