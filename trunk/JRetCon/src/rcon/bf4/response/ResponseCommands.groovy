@@ -6,6 +6,8 @@ package rcon.bf4.response
  */
 enum ResponseCommands {
 
+    // TODO inserir todos os elementos de resposta
+    
     OK('OK'),
     INVALIDPASSWORD('InvalidPassword'),
     PASSWORDNOTSET('PasswordNotSet'),
